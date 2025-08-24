@@ -30,7 +30,7 @@ git add .
 git commit -m "Initial commit: Kyra Discord Bot"
 
 # Add your GitHub repository as remote
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git remote add origin https://github.com/nzcve71300/Kyra.git
 
 # Push to GitHub
 git push -u origin main
@@ -71,7 +71,7 @@ ssh YOUR_USERNAME@YOUR_INSTANCE_IP
 
 ```bash
 # Download the deployment script
-wget https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/deploy.sh
+wget https://raw.githubusercontent.com/nzcve71300/Kyra/main/deploy.sh
 
 # Make it executable
 chmod +x deploy.sh
@@ -103,7 +103,7 @@ cd /opt
 sudo mkdir kyra-bot
 sudo chown $USER:$USER kyra-bot
 cd kyra-bot
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git .
+git clone https://github.com/nzcve71300/Kyra.git .
 
 # Install dependencies
 npm install

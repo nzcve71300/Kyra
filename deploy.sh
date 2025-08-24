@@ -28,10 +28,10 @@ echo "📁 Setting up application directory..."
 sudo mkdir -p /opt/kyra-bot
 sudo chown $USER:$USER /opt/kyra-bot
 
-# Clone the repository (you'll need to update this URL)
+# Clone the repository
 echo "📥 Cloning repository..."
 cd /opt/kyra-bot
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git .
+git clone https://github.com/nzcve71300/Kyra.git .
 
 # Install dependencies
 echo "📦 Installing dependencies..."
