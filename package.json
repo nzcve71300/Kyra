@@ -1,0 +1,21 @@
+{
+  "name": "kyra-infra",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev:api": "node src/api/server.js",
+    "dev:bot": "node src/bot/index.js",
+    "deploy:commands": "node deploy-commands.js",
+    "deploy:commands:guild": "node deploy-commands.js guild",
+    "migrate": "node src/db/migrator.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.3",
+    "discord.js": "^14.14.1"
+  },
+  "devDependencies": {
+    "pm2": "^5.3.0"
+  }
+}
